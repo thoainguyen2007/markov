@@ -26,7 +26,7 @@ if n > 0:
             st.session_state["valid"] = False
         else:
             st.success("Ma trận hợp lệ! Nhập số lượng đối tượng ban đầu.")
-            st.session_state["valid"] = False
+            st.session_state["valid"] = True
             # Nhập số lượng ban đầu
             st.subheader("Nhập số lượng đối tượng ban đầu L")
             L = np.zeros((n, 1))
